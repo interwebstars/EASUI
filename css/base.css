@@ -1,0 +1,29 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    font-size: 1em;
+    font-weight: 300;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 300;
+}
+/* Dt */
+dt{
+  font-weight:bold;
+}
+
+/* Blockquotes */
+blockquote{
+  border-left:3px solid #bdc3c7;
+  padding-left:1em;
+}
+
+abbr[title] {
+border-bottom: 1px dashed;
+}
