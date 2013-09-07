@@ -126,5 +126,14 @@ a:hover, a:active {
 
 .btn.btn--disabled {
   opacity: .5;
-  cursor: none;
+  cursor: not-allowed;
+}
+
+
+
+/* responsive */
+@media (max-width: 767px) { 
+  .btn{
+    width: 100%
+  }
 }
