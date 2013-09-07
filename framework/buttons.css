@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* 
 * EasUI | A simple & lovely responsive CSS framework.
 * ----------------------------------------------------------
@@ -9,3 +10,120 @@
 * 
 * Buttons.css
 */
+/*
+* color base : 
+* (http://flatuicolors.com)
+*
+* $primary : #1abc9c
+* $deeper-primary : #16a085
+*
+* $green : #2ecc71
+* $deeper-green : #27ae60 
+*
+* $blue : #3498db
+* $deeper-blue : #2980b9
+*
+* $red : #e74c3c
+* $deeper-red : #c0392b
+*
+* $purple : #9b59b6
+* $deeper-purple : #8e44ad
+*
+*
+* $black : #34495e
+* $deeper-black : #2c3e50
+*
+*
+* $white : #ecf0f1
+* $deeper-white : #bdc3c7
+*
+*
+* $yellow : #f1c40f
+* $deeper-yellow : #f39c12
+*
+**/
+/* Buttons starts here */
+.btn {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 1px;
+  position: relative;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 2;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  cursor: pointer;
+  vertical-align: bottom;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: #ecf0f1;
+}
+
+.btn:hover {
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.05)));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-repeat: repeat-x;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  outline: 0;
+}
+
+.btn:active {
+  position: relative;
+  border-bottom: 0;
+  top: 0px;
+  /* Because of the border */
+}
+
+.btn.btn--base {
+  background: #1abc9c;
+}
+
+.btn.btn--green {
+  background: #2ecc71;
+}
+
+.btn.btn--blue {
+  background: #3498db;
+}
+
+.btn.btn--red {
+  background: #e74c3c;
+}
+
+.btn.btn--purple {
+  background: #9b59b6;
+}
+
+.btn.btn--black {
+  background: #34495e;
+}
+
+.btn.btn--white {
+  background: #ecf0f1;
+}
+
+.btn.btn--important {
+  background: #f1c40f;
+}
+
+.btn.btn--disabled {
+  opacity: .5;
+  cursor: none;
+}
