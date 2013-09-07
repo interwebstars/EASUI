@@ -1,7 +1,7 @@
 EASUI
 =====
 
-A simple &amp; lovely CSS framework.
+A simple &amp; lovely responsive CSS framework.
 
 
 # Aim : 
@@ -15,13 +15,13 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 
 # Existant stylesheets : 
 
-* base.css
+* base.css (waiting for confirmation)
+* Buttons.css (started : 7/09/13 | 12:35)
 
 # Needed stylesheets : 
 
 * Grids.css
 * Forms.css
-* Buttons.css
 * Table.css
 * Menus.css
 * Customize.css
