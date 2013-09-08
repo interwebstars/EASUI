@@ -9,12 +9,55 @@
 * Licensed under MIT
 * 
 * tables.css
+*
+* The tables uses a structure and a responsive method created
+* by David bushell ( @dbushell ) | http://dbushell.com/2012/01/05/responsive-tables-2/
 */
 
+
 table,tr,td{
-border:1px solid rgba(0,0,0,.1);}
-td{padding:.4em;}
+	border:1px solid rgba(0,0,0,.1);
+}
+td{
+	padding:.4em;
+}
 thead{
   background:rgba(0,0,0,.1);
 }
-thead td{font-weight:400}
+thead td{
+	font-weight:400;
+}
+
+	thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+	* html .cf { zoom: 1; }
+	*:first-child+html .cf { zoom: 1; }
+
+
+
+	table { width: 100%; font-size: 0.75em;/*12*/ line-height: 1.25em;/*15*/ border-collapse: collapse; border-spacing: 0; }
+
+	 th,
+	 td { margin: 0; padding: 0.4166em;/*10*/ vertical-align: top; border: 1px solid #babcbf; background: #fff; }
+	 th { text-align: left; background: #fff2b2; }
+
+
+	@media only screen and (max-width: 40em) { /*640*/
+
+		table { display: block; position: relative; width: 100%; }
+	  thead { display: block; float: left; }
+	  tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+		thead tr { display: block; }
+		th { display: block; }
+		tbody tr { display: inline-block; vertical-align: top; }
+		td { display: block; min-height: 1.25em; }
+
+		
+		/* sort out borders */
+
+		 th { border-bottom: 0; }
+		 td { border-left: 0; border-right: 0; border-bottom: 0; }
+		 tbody tr { border-right: 1px solid #babcbf; }
+		 th:last-child,
+		 td:last-child { border-bottom: 1px solid #babcbf; }
+
+	}
