@@ -1,10 +1,4 @@
-/* 
-* EasUI | A simple & lovely responsive CSS framework.
-* ----------------------------------------------------------
-* https://github.com/interwebstars/EASUI
-* ----------------------------------------------------------
-*
-* Made by : Interwebstars (https://github.com/interwebstars)
+terwebstars (https://github.com/interwebstars)
 * Licensed under MIT
 * 
 * Buttons.css
@@ -40,6 +34,9 @@
 * $yellow : #f1c40f
 * $deeper-yellow : #f39c12
 *
+* $orange : #e67e22;
+* $deeper-orange: #d35400;
+*
 **/
 /* Buttons starts here */
 .btn {
@@ -62,6 +59,8 @@
   box-sizing: border-box;
   text-decoration: none;
   background: #ecf0f1;
+  margin: .2em 0;
+  padding: .2em;
 }
 
 .btn:hover {
@@ -76,18 +75,25 @@
 
 a.btn {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
 
 a:hover, a:active {
   outline: 0;
 }
 
+a:hover, .btn:hover, a.btn:hover {
+  border: 0;
+}
+
+a.btn.border:hover, n.btn.border:hover {
+  border: auto;
+}
+
 .btn:active {
   position: relative;
   border-bottom: 0;
-  top: 0px;
-  /* Because of the border */
+  top: 1px;
 }
 
 .btn.btn--base {
@@ -122,9 +128,38 @@ a:hover, a:active {
   background: #f1c40f;
 }
 
+.btn.btn--orange {
+  background: #e67e22;
+}
+
 .btn.btn--disabled {
   opacity: .5;
   cursor: not-allowed;
+}
+
+.btn.btn--active {
+  position: relative;
+  border-bottom: 0;
+  top: 1px;
+  box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.btn.border {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+.btn.btn--regular {
+  font-size: 1.2em;
+}
+
+.btn.btn--large {
+  font-size: 1.56em;
+  padding: 0 .4em;
+}
+
+.btn.btn--larger {
+  font-size: 2.028em;
+  padding: 0 .2em;
 }
 
 /* responsive */

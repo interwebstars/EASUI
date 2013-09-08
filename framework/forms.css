@@ -1,0 +1,20 @@
+
+/* 
+* EasUI | A simple & lovely responsive CSS framework.
+* ----------------------------------------------------------
+* https://github.com/interwebstars/EASUI
+* ----------------------------------------------------------
+*
+* Made by : Interwebstars (https://github.com/interwebstars)
+* Licensed under MIT
+* 
+* forms.css
+*/
+
+table,tr,td{
+border:1px solid rgba(0,0,0,.1);}
+td{padding:.4em;}
+thead{
+  background:rgba(0,0,0,.1);
+}
+thead td{font-weight:400}
