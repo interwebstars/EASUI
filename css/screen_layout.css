@@ -125,7 +125,7 @@ transition:all .6s ease;}
 font-weight:300;
 color:#1abc9c;}
 .ct-block section.closed{height:0 !important;transition:all .6s ease;}
-.ct-block section.open{height:auto;min-height: 2em}
+.ct-block section.open{height:auto;min-height: 2em;padding-bottom: 3em;}
 .footer {
     background: #2c3e50;
     color: #666;
