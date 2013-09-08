@@ -76,7 +76,6 @@
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
   background-repeat: repeat-x;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 a.btn {
@@ -90,10 +89,22 @@ a:hover, a:active {
 
 a:hover, .btn:hover, a.btn:hover {
   border: 0;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.05)));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-repeat: repeat-x;
 }
 
 a.btn.border:hover, n.btn.border:hover {
   border: auto;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.05)));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-repeat: repeat-x;
 }
 
 .btn:active {
