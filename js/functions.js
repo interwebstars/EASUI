@@ -3,3 +3,4 @@ $(document).ready(function(){
  		 $(this).next('section').toggleClass('closed');
 	});
 });
+

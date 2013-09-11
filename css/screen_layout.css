@@ -42,6 +42,30 @@ a:focus { text-decoration: underline }
     background: #2c3e50;
     padding: .6em;
 }
+.brand-tagline .phrases { 
+  overflow: hidden;
+height: 10em;
+width: 100%;
+margin: auto;
+box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+position: relative;
+margin: -0em 3em;
+line-height: 1.6;
+}
+.brand-tagline .phrases span {
+text-align:center;
+font-weight: 300;
+position: absolute;
+left:0;
+right:0;
+margin:auto -3em;
+color: #fff;
+}
+
 .brand-title,
 .brand-tagline { margin: 0 }
 .brand-title { text-transform: uppercase; font-weight: 500 }
@@ -49,6 +73,7 @@ a:focus { text-decoration: underline }
 .brand-tagline {
     font-weight: 300;
     color: #1abc9c;
+    line-height: 0 
 }
 .brand-tagline span { color: #fff }
 .nav-list {
@@ -124,7 +149,7 @@ transition:all .6s ease;}
 .ct-block section h1.demo-title{
 font-weight:300;
 color:#1abc9c;}
-.ct-block section.closed{height:0 !important;transition:all .6s ease;}
+.ct-block section.closed{height:0 !important;transition:all .6s ease;overflow: hidden;}
 .ct-block section.open{height:auto;min-height: 2em;padding-bottom: 3em;}
 .footer {
     background: #2c3e50;
@@ -166,6 +191,7 @@ color:#1abc9c;}
 .g-1-3{
     width:30%;
 }
+/**/
 
 @media (max-width: 767px) { 
     .sidebar,
