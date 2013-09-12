@@ -28,7 +28,12 @@
 	thead td{
 	  font-weight:400;
 	}
-
+table tbody tr:hover {
+  background: #f4f4f4;
+}
+table tbdy tr:hover td {
+  color: #555;
+}
 /* Following lines are from David Bushell @dbushell */
 	thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 	* html .cf { zoom: 1; }
