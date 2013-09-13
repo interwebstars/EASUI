@@ -40,6 +40,9 @@
   color:#5c5c5c;
   text-decoration:none
 }
+ nav[role="navigation"] ul li a:hover{
+ 	background:transparent;
+}
  nav[role="navigation"] ul li:hover,
  nav[role="navigation"] ul li:active{
   background:#e9e9e8;
