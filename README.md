@@ -18,12 +18,12 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 * Base.css 
 * Buttons.css 
 * Tables.css 
+* menus.css 
 
 # Needed stylesheets : 
 
 * Grids.css
 * Forms.css
-* Menus.css
 * Customize.css
 * Extend.css
 * Layouts.css
