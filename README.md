@@ -19,7 +19,6 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 * Buttons.css 
 * Tables.css 
 * menus.css 
-* config.css 
 
 # Needed stylesheets : 
 
@@ -29,5 +28,3 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 * Extend.css
 * Layouts.css
 
-# Features :
-We use the [http://emwaw.me](emwaw.me) system to define all sizes and colors.
