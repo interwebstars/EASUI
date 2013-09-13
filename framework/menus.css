@@ -34,7 +34,7 @@
   text-align:center;
   line-height:3;
   cursor:pointer;
-
+box-sizing:content-box;
 }
  nav[role="navigation"] ul li a{
   color:#5c5c5c;
