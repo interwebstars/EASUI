@@ -100,7 +100,7 @@ a:focus { text-decoration: underline }
     font-weight: 300;
 }
 .ct-block:hover .title { color: #1abc9c }
-.ct-block span {
+.ct-block span[class*="fontawesome"] {
     float: right;
     display: block;
     width: 15%;
