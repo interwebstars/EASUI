@@ -1,5 +1,6 @@
+@charset "UTF-8";
 /* 
-* EasUI | A simple & lovely responsive CSS framework.
+* EasUI |Â A simple & lovely responsive CSS framework.
 * ----------------------------------------------------------
 * https://github.com/interwebstars/EASUI
 * ----------------------------------------------------------
@@ -67,7 +68,11 @@
   background: #ecf0f1;
   margin: .2em 0;
   padding: .2em;
-}
+
+font-weight:400;
+  min-width:4em;
+  padding:.2em .4em;
+  margin:.1em 0;}
 
 a.btn {
   text-decoration: none;
@@ -122,9 +127,10 @@ a:hover, .btn:hover, a.btn:hover {
 
 .btn.btn--white {
   background: #ecf0f1;
+  color:#34495E;
 }
 
-.btn.btn--important {
+.btn.btn--yellow {
   background: #f1c40f;
 }
 
@@ -141,13 +147,25 @@ a:hover, .btn:hover, a.btn:hover {
   position: relative;
   border-bottom: 0;
   top: 1px;
-  box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.55);
+}
+.btn.btn--disabled:active{
+  top:inherit
+}
+.btn.btn--disabled:hover{
+ background-image:inherit
 }
 .btn.btn--active.border{
   box-shadow:inset 0 0 .5em rgba(0,0,0,.15),inset 0 0 0 1px rgba(0,0,0,.05);
 }
-.btn.border {
+.btn.btn--border {
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+.btn.btn--active.btn--border{
+  box-shadow:inset 0 0 .5em rgba(0,0,0,.25),inset 0 0 0 1px rgba(0,0,0,.5);
+}
+.btn.btn--border {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
 .btn.btn--regular {
@@ -164,9 +182,25 @@ a:hover, .btn:hover, a.btn:hover {
   padding: 0 .2em;
 }
 
+.btn.btn--shadow{
+  box-shadow:1px 1px 0 #fff,2px 2px 0 rgba(0,0,0,.3);
+}
+.btn.btn--shadow:active{
+  box-shadow:1px 1px 0 rgba(0,0,0,.4);
+}
+
 /* responsive */
 @media (max-width: 767px) {
   .btn {
     width: 100%;
   }
 }
+
+.block{
+  margin:.02em .4em
+}
+
+
+
+
+
