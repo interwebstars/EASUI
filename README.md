@@ -19,6 +19,7 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 * Buttons.css 
 * Tables.css 
 * menus.css 
+* ui-elements.css
 
 # Needed stylesheets : 
 
