@@ -10,6 +10,15 @@
 * 
 * ui-elements.css
 */
+
+/* Titles */
+.title{
+  font-weight:bold;
+  letter-spacing:.15em;
+}
+.title--blue{
+  color:#2980b9
+}
 /* LABELS */
 .label{
   font-size:.8em;
