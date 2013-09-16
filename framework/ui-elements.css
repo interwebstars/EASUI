@@ -16,8 +16,33 @@
   font-weight:bold;
   letter-spacing:.15em;
 }
+/* Titles : colors */
+.title--primary{
+  color:#16a085
+}
 .title--blue{
   color:#2980b9
+}
+.title--green{
+  color:#27ae60
+}
+.title--red{
+  color:#c0392b
+}
+.title--yellow{
+  color:#f39c12
+}
+.title--orange{
+  color:#d35400
+}
+.title--purple{
+  color:#8e44ad
+}
+.title--black{
+  color: #2c3e50
+}
+.title--white{
+  color:#bdc3c7
 }
 /* LABELS */
 .label{
