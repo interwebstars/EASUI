@@ -13,8 +13,10 @@
 
 /* Titles */
 .title{
-  font-weight:bold;
   letter-spacing:.15em;
+}
+.title--bold{
+    font-weight:bold;
 }
 /* Titles : colors */
 .title--primary{
@@ -59,7 +61,7 @@
 .label.label--cursor{
   cursor:pointer
 }
-.label.label--cool{
+.label.label--green{
   background:#2ecc71;
   text-shadow:0 1px 0 rgba(0, 0, 0, .15);
 }
@@ -79,4 +81,20 @@
 .label.label--black{
   background:#2c3e50;
   text-shadow:0 1px 0 rgba(0, 0, 0, .8);
+}
+
+.label--hover--blue:hover{
+  background:#3498db;
+}
+.label--hover--green:hover{
+  background:#2ecc71;
+}
+.label--hover--yellow:hover{
+  background:#f4d871;
+}
+.label--hover--red:hover{
+  background:#f47771;
+}
+.label--hover--black:hover{
+  background:#2c3e50;
 }

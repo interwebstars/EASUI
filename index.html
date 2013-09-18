@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="framework/buttons.css">
 <link rel="stylesheet" href="framework/tables.css">
 <link rel="stylesheet" href="framework/menus.css">
+<link rel="stylesheet" href="framework/ui-elements.css">
 <link rel="stylesheet" href="framework/demo-icons.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js" ></script>
 <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
@@ -49,7 +50,7 @@
 
     <div class="pure-u-1">
         <div class="content">
-        <div class="ct-block"><h2 class="title">Base css</h2><a href="javascript:void(0)" class="call"><span class="fontawesome-play active"></span></a>
+        <div class="ct-block"><h2 class="title-entry">Base css</h2><a href="javascript:void(0)" class="call"><span class="fontawesome-play active"></span></a>
         <section class="open closed">
             <h1 class="demo-title">Base CSS</h1>
             <div class="block">
@@ -158,17 +159,71 @@
 
         </section>
         </div>
-        <div class="ct-block"><h2 class="title">Grids</h2><a href="javascript:void(0)" class="call"><span class="fontawesome-play active"></span></a>
+
+        <div class="ct-block"><h2 class="title-entry">UI-Elements</h2><a href="javascript:void(0)" class="call"><span class="fontawesome-play active"></span></a>
+         <section class="open closed">
+            <h1 class="demo-title">UI-Elements</h1>
+            <div class="block">
+              <p>Titles : </p>
+             <ul class="left">
+             <li> <h2 class="title ">EasUI CSS Framework</h2></li>
+              <li><h2 class="title title-primary">EasUI CSS Framework</h2></li>
+              <li><h2 class="title title--blue">EasUI CSS Framework</h2></li>
+              <li><h2 class="title title--green">EasUI CSS Framework</h2></li>
+              <li><h2 class="title title--red">EasUI CSS Framework</h2></li>
+              <li><h2 class="title title--yellow">EasUI CSS Framework</h2></li>
+             <li> <h2 class="title title--orange">EasUI CSS Framework</h2></li>
+             <li> <h2 class="title title--purple">EasUI CSS Framework</h2></li>
+             <li> <h2 class="title title--black">EasUI CSS Framework</h2></li>
+             <li> <h2 class="title title--white">EasUI CSS Framework</h2></li>
+             </ul>
+              <ul class="left">
+             <li> <h2 class="title title--bold">EasUI CSS Framework</h2></li>
+              <li><h2 class="title title-primary title--bold">EasUI CSS Framework</h2></li>
+              <li><h2 class="title title--blue title--bold">EasUI CSS Framework</h2></li>
+              <li><h2 class="title title--green title--bold">EasUI CSS Framework</h2></li>
+              <li><h2 class="title title--red title--bold">EasUI CSS Framework</h2></li>
+              <li><h2 class="title title--yellow title--bold">EasUI CSS Framework</h2></li>
+             <li> <h2 class="title title--orange title--bold">EasUI CSS Framework</h2></li>
+             <li> <h2 class="title title--purple title--bold">EasUI CSS Framework</h2></li>
+             <li> <h2 class="title title--black title--bold">EasUI CSS Framework</h2></li>
+             <li> <h2 class="title title--white title--bold">EasUI CSS Framework</h2></li>
+             </ul>
+            </div>
+            <div>
+            <p><strong>Labels</strong></p>
+              <p> You have <span class="label">20</span> mails</p>
+              <p><span class="label label--error">We're sorry, we can't connect you to the app</span></p>
+              <p><strong>Mails</strong> : received <span class="label label--green">20</span> | Draft <span class="label label--warning">8</span> | Trash <span class="label label--error">45</span></p>
+
+              <p>You can aslo use them as inline buttons : <span class="label label--cursor label--hover--blue">Download PDF</span></p>
+
+              <p><strong>Hover statement</strong>
+              <ul class="list_blocks">
+                <li>.label--hover--blue <span class="label label--cursor label--hover--blue">Hover me ! </span></li>
+                <li>.label--hover--green <span class="label label--cursor label--hover--green">Hover me ! </span></li>
+                <li>.label--hover--yellow <span class="label label--cursor label--hover--yellow">Hover me ! </span></li>
+                <li>.label--hover--red <span class="label label--cursor label--hover--red">Hover me ! </span></li>
+                <li>.label--hover--black <span class="label label--cursor label--hover--black">Hover me ! </span></li>
+              </ul>
+              <span class="label label--error label--hover--green label--cursor">Click to dismiss</span>
+
+              </p>
+            </div>
+        </section>
+        </div>
+
+        <div class="ct-block"><h2 class="title-entry">Grids</h2><a href="javascript:void(0)" class="call"><span class="fontawesome-play active"></span></a>
          <section class="open closed">
             <h1 class="demo-title">Grids</h1>
         </section>
         </div>
-        <div class="ct-block"><h2 class="title">Forms</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
+        <div class="ct-block"><h2 class="title-entry">Forms</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
          <section class="open closed">
             <h1 class="demo-title">Forms</h1>
         </section>
         </div>
-        <div class="ct-block"><h2 class="title">Buttons</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
+        <div class="ct-block"><h2 class="title-entry">Buttons</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
          <section class="open closed">
             <h1 class="demo-title">Buttons</h1>
             <div class="block">
@@ -192,6 +247,17 @@
   <a href="#" class="btn btn--black btn--border">link</a>
   <a href="#" class="btn btn--white btn--border">link</a>
   <a href="#" class="btn btn--yellow btn--border">link</a>
+  <p>Shadow</p>
+  <a href="#" class="btn btn--base btn--shadow">link</a>
+  <a href="#" class="btn btn--green btn--shadow">link</a>
+  <a href="#" class="btn btn--blue btn--shadow">link</a>
+  <a href="#" class="btn btn--red btn--shadow">link</a>
+  <a href="#" class="btn btn--orange btn--shadow">link</a>
+  <a href="#" class="btn btn--purple btn--shadow">link</a>
+  <a href="#" class="btn btn--black btn--shadow">link</a>
+  <a href="#" class="btn btn--white btn--shadow">link</a>
+  <a href="#" class="btn btn--yellow btn--shadow">link</a>
+
   <p>Special</p>
     <a href="#" class="btn btn--disabled">disabled</a>
     <a href="#" class="btn btn--active">active</a>
@@ -272,7 +338,7 @@
 </div>
         </section>
         </div>
-        <div class="ct-block"><h2 class="title">Table</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
+        <div class="ct-block"><h2 class="title-entry">Table</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
          <section class="open closed">
             <h1 class="demo-title">Table</h1>
 <table>
@@ -702,7 +768,7 @@
 
         </section>
         </div>
-        <div class="ct-block"><h2 class="title">Menus</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
+        <div class="ct-block"><h2 class="title-entry">Menus</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
          <section class="open closed">
             <h1 class="demo-title">Menus</h1>
             <div class="block">
@@ -811,17 +877,17 @@
             </div>
         </section>
         </div>
-        <div class="ct-block"><h2 class="title">Customize</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
+        <div class="ct-block"><h2 class="title-entry">Customize</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
          <section class="open closed">
             <h1 class="demo-title">Customize</h1>
         </section>
         </div>
-        <div class="ct-block"><h2 class="title">Extend</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
+        <div class="ct-block"><h2 class="title-entry">Extend</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
          <section class="open closed">
             <h1 class="demo-title">Extend</h1>
         </section>
         </div>
-        <div class="ct-block"><h2 class="title">Layouts</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
+        <div class="ct-block"><h2 class="title-entry">Layouts</h2><a href="javascript:void(0)"  class="call"><span class="fontawesome-play active"></span></a>
          <section class="open closed">
             <h1 class="demo-title">Layouts</h1>
         </section>
@@ -836,6 +902,7 @@
         </div>
     </div>
 </div>
+<script type="text/javascript" src="js/jquery.2.0.3.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
 <script type="text/javascript" src="http://lab.web-gate.fr/prefixfree.min.js"></script>
 </body>

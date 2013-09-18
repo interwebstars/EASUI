@@ -95,11 +95,11 @@ a:focus { text-decoration: underline }
     background: #34495e;
     overflow: hidden;
 }
-.ct-block .title {
+.ct-block .title-entry {
     color: #fff;
     font-weight: 300;
 }
-.ct-block:hover .title { color: #1abc9c }
+.ct-block:hover .title-entry { color: #1abc9c }
 .ct-block span[class*="fontawesome"] {
     float: right;
     display: block;
@@ -121,6 +121,12 @@ background:#ecf0f1;
 padding:1em 2em;
 margin:2.8em -1em -2.5em;
 transition:all .6s ease;}
+.ct-block section ul.left{
+    display: block;
+    float: left;
+    width: 50%;
+    height: 480px
+}
 .ct-block section h1.demo-title{
 font-weight:300;
 color:#1abc9c;}
@@ -165,6 +171,11 @@ color:#1abc9c;}
 }
 .g-1-3{
     width:30%;
+}
+
+.list_blocks li{
+    display: block;
+    margin: .6em auto 0
 }
 /**/
 
