@@ -61,6 +61,10 @@
 .label.label--cursor{
   cursor:pointer
 }
+.label.label--rounded{
+  border-radius: 1em;
+  padding:.35em
+}
 .label.label--green{
   background:#2ecc71;
   text-shadow:0 1px 0 rgba(0, 0, 0, .15);
