@@ -44,7 +44,7 @@
   color: #2c3e50
 }
 .title--white{
-  color:#bdc3c7
+  color:#ffffff; /* Previously #bdc3c7 */
 }
 /* LABELS */
 .label{
