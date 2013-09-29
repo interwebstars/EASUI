@@ -17,17 +17,21 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 
 * Base.css 
 * Buttons.css 
-* Tables.css 
+* Grids.css
 * menus.css 
+* Tables.css 
 * ui-elements.css
 
 # Needed stylesheets : 
 
-* Grids.css
 * Forms.css
 * Customize.css
 * Extend.css
 * Layouts.css
+
+# Features
+  
+  * The grid system use [Lemonade](https://github.com/dope/lemonade)
 
 # Use it 
 
