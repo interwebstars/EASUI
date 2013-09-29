@@ -25,9 +25,7 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 # Needed stylesheets : 
 
 * Forms.css
-* Customize.css
-* Extend.css
-* Layouts.css
+
 
 # Features
   
