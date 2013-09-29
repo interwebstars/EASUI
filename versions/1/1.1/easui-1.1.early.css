@@ -1,0 +1,896 @@
+@charset "UTF-8";
+/* 
+* EasUI | A simple & lovely responsive CSS framework.
+* ----------------------------------------------------------
+* https://github.com/interwebstars/EASUI
+* ----------------------------------------------------------
+*
+* Made by : Interwebstars (https://github.com/interwebstars)
+* Licensed under MIT
+* 
+* Base.css
+* Based on Normalize.css
+*
+*/
+ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; } /** * Correct `inline-block` display not defined in IE 8/9. */ audio, canvas, video { display: inline-block; } /** * Prevent modern browsers from displaying `audio` without controls. * Remove excess height in iOS 5 devices. */ audio:not([controls]) { display: none; height: 0; } /** * Address `[hidden]` styling not present in IE 8/9. * Hide the `template` element in IE, Safari, and Firefox < 22. */ [hidden], template { display: none; } /* ========================================================================== Base ========================================================================== */ /** * 1. Set default font family to sans-serif. * 2. Prevent iOS text size adjust after orientation change, without disabling * user zoom. */ html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ } /** * Remove default margin. */ body { margin: 0; } /* ========================================================================== Links ========================================================================== */ /** * Remove the gray background color from active links in IE 10. */ a { background: transparent; } /** * Address `outline` inconsistency between Chrome and other browsers. */ a:focus { outline: thin dotted; } /** * Improve readability when focused and also mouse hovered in all browsers. */ a:active, a:hover { outline: 0; } /* ========================================================================== Typography ========================================================================== */ /** * Address variable `h1` font-size and margin within `section` and `article` * contexts in Firefox 4+, Safari 5, and Chrome. */ h1 { font-size: 2em; margin: 0.67em 0; } /** * Address styling not present in IE 8/9, Safari 5, and Chrome. */ abbr[title] { border-bottom: 1px dotted; } /** * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome. */ b, strong { font-weight: bold; } /** * Address styling not present in Safari 5 and Chrome. */ dfn { font-style: italic; border-bottom: 1px dotted;} /** * Address differences between Firefox and other browsers. */ hr { -moz-box-sizing: content-box; box-sizing: content-box; height: 0; } /** * Address styling not present in IE 8/9. */ mark { background: #ff0; color: #000; } /** * Correct font family set oddly in Safari 5 and Chrome. */ code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; } /** * Improve readability of pre-formatted text in all browsers. */ pre { white-space: pre-wrap; } /** * Set consistent quote types. */ q { quotes: "\201C" "\201D" "\2018" "\2019"; } /** * Address inconsistent and variable font size in all browsers. */ small { font-size: 80%; } /** * Prevent `sub` and `sup` affecting `line-height` in all browsers. */ sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; } sup { top: -0.5em; } sub { bottom: -0.25em; } /* ========================================================================== Embedded content ========================================================================== */ /** * Remove border when inside `a` element in IE 8/9. */ img { } /** * Correct overflow displayed oddly in IE 9. */ svg:not(:root) { overflow: hidden; } /* ========================================================================== Figures ========================================================================== */ /** * Address margin not present in IE 8/9 and Safari 5. */ figure { margin: 0; } /* ========================================================================== Forms ========================================================================== */ /** * Define consistent border, margin, and padding. */ fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; } /** * 1. Correct `color` not being inherited in IE 8/9. * 2. Remove padding so people aren't caught out if they zero out fieldsets. */ legend { border: 0; /* 1 */ padding: 0; /* 2 */ } /** * 1. Correct font family not being inherited in all browsers. * 2. Correct font size not being inherited in all browsers. * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome. */ button, input, select, textarea { font-family: inherit; /* 1 */ font-size: 100%; /* 2 */ margin: 0; /* 3 */ } /** * Address Firefox 4+ setting `line-height` on `input` using `!important` in * the UA stylesheet. */ button, input { line-height: normal; } /** * Address inconsistent `text-transform` inheritance for `button` and `select`. * All other form control elements do not inherit `text-transform` values. * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+. * Correct `select` style inheritance in Firefox 4+ and Opera. */ button, select { text-transform: none; } /** * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio` * and `video` controls. * 2. Correct inability to style clickable `input` types in iOS. * 3. Improve usability and consistency of cursor style between image-type * `input` and others. */ button, html input[type="button"], /* 1 */ input[type="reset"], input[type="submit"] { -webkit-appearance: button; /* 2 */ cursor: pointer; /* 3 */ } /** * Re-set default cursor for disabled elements. */ button[disabled], html input[disabled] { cursor: default; } /** * 1. Address box sizing set to `content-box` in IE 8/9/10. * 2. Remove excess padding in IE 8/9/10. */ input[type="checkbox"], input[type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ } /** * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome. * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome * (include `-moz` to future-proof). */ input[type="search"] { -webkit-appearance: textfield; /* 1 */ -moz-box-sizing: content-box; -webkit-box-sizing: content-box; /* 2 */ box-sizing: content-box; } /** * Remove inner padding and search cancel button in Safari 5 and Chrome * on OS X. */ input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; } /** * Remove inner padding and border in Firefox 4+. */ button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; } /** * 1. Remove default vertical scrollbar in IE 8/9. * 2. Improve readability and alignment in all browsers. */ textarea { overflow: auto; /* 1 */ vertical-align: top; /* 2 */ } /* ========================================================================== Tables ========================================================================== */ /** * Remove most spacing between table cells. */ table { border-collapse: collapse; border-spacing: 0; }
+
+ {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+    font-weight: 300;
+}
+/* Ordered list */
+ol {
+  display: block;
+  list-style-type: decimal;
+}
+ol li{
+
+}
+/* Dt */
+dt{
+  font-weight:bold;
+}
+
+/* Blockquotes */
+blockquote{
+  border-left:3px solid #bdc3c7;
+  padding-left:1em;
+}
+/* Abbr */
+abbr[title] {
+border-bottom: 1px dashed;
+}
+/* Inline elements */
+/* cite */
+cite:before,
+cite:after{content:' " ';}
+/* Code */
+code{
+  background: rgba(0,0,0,.15);
+  padding:.1em;
+}
+/* Del */
+del{
+  opacity: 0.5;
+}
+/* Dfn */
+dfn {
+  font-style: italic;
+  border-bottom: 1px dotted;
+}
+/* I */
+i{
+  /* Nothing yet, maybe not useful */
+}
+/* images */
+/* ins */
+/* kbd */
+/* mark */
+mark {
+  background:#1abc9c;
+  color: #fff;
+  font-family: courier, serif;
+  padding:.1em;
+}
+/* 
+* EasUI |Â A simple & lovely responsive CSS framework.
+* ----------------------------------------------------------
+* https://github.com/interwebstars/EASUI
+* ----------------------------------------------------------
+*
+* Made by : Interwebstars (https://github.com/interwebstars)
+* Licensed under MIT
+* 
+* Buttons.css
+*/
+/*
+* color base : 
+* (http://flatuicolors.com)
+*
+* $primary : #1abc9c
+* $deeper-primary : #16a085
+*
+* $green : #2ecc71
+* $deeper-green : #27ae60 
+*
+* $blue : #3498db
+* $deeper-blue : #2980b9
+*
+* $red : #e74c3c
+* $deeper-red : #c0392b
+*
+* $purple : #9b59b6
+* $deeper-purple : #8e44ad
+*
+*
+* $black : #34495e
+* $deeper-black : #2c3e50
+*
+*
+* $white : #ecf0f1
+* $deeper-white : #bdc3c7
+*
+*
+* $yellow : #f1c40f
+* $deeper-yellow : #f39c12
+*
+* $orange : #e67e22;
+* $deeper-orange: #d35400;
+*
+**/
+/* Buttons starts here */
+.btn {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 1px;
+  position: relative;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 2;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  cursor: pointer;
+  vertical-align: bottom;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: #ecf0f1;
+  margin: .2em 0;
+  padding: .2em;
+
+font-weight:400;
+  min-width:4em;
+  padding:.2em .4em;
+  margin:.1em 0;}
+
+a.btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover, a:active {
+  outline: 0;
+}
+
+a:hover, .btn:hover, a.btn:hover {
+  border: 0;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.05)));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05));
+  background-repeat: repeat-x;
+}
+
+
+
+.btn:active {
+  position: relative;
+  border-bottom: 0;
+  top: 1px;
+}
+
+.btn.btn--base {
+  background: #1abc9c;
+}
+
+.btn.btn--green {
+  background: #2ecc71;
+}
+
+.btn.btn--blue {
+  background: #3498db;
+}
+
+.btn.btn--red {
+  background: #e74c3c;
+}
+
+.btn.btn--purple {
+  background: #9b59b6;
+}
+
+.btn.btn--black {
+  background: #34495e;
+}
+
+.btn.btn--white {
+  background: #ecf0f1;
+  color:#34495E;
+}
+
+.btn.btn--yellow {
+  background: #f1c40f;
+}
+
+.btn.btn--orange {
+  background: #e67e22;
+}
+
+.btn.btn--disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.btn.btn--active {
+  position: relative;
+  border-bottom: 0;
+  top: 1px;
+  box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.55);
+}
+.btn.btn--disabled:active{
+  top:inherit
+}
+.btn.btn--disabled:hover{
+ background-image:inherit
+}
+.btn.btn--active.border{
+  box-shadow:inset 0 0 .5em rgba(0,0,0,.15),inset 0 0 0 1px rgba(0,0,0,.05);
+}
+.btn.btn--border {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+.btn.btn--active.btn--border{
+  box-shadow:inset 0 0 .5em rgba(0,0,0,.25),inset 0 0 0 1px rgba(0,0,0,.5);
+}
+.btn.btn--border {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.btn.btn--regular {
+  font-size: 1.2em;
+}
+
+.btn.btn--large {
+  font-size: 1.56em;
+  padding: 0 .4em;
+}
+
+.btn.btn--larger {
+  font-size: 2.028em;
+  padding: 0 .2em;
+}
+
+.btn.btn--shadow{
+  box-shadow:1px 1px 0 #fff,2px 2px 0 rgba(0,0,0,.3);
+}
+.btn.btn--shadow:active{
+  box-shadow:1px 1px 0 rgba(0,0,0,.4);
+}
+
+/* responsive */
+@media (max-width: 767px) {
+  .btn {
+    width: 100%;
+  }
+}
+
+.block{
+  margin:.02em .4em
+}
+/* 
+* EasUI | A simple & lovely responsive CSS framework.
+* ----------------------------------------------------------
+* https://github.com/interwebstars/EASUI
+* ----------------------------------------------------------
+*
+* Made by : Interwebstars (https://github.com/interwebstars)
+* Licensed under MIT
+* 
+* grid.css
+* ----------------------------------------------------------
+*
+* This grid is from : 
+*
+* Lemonade v1.1
+* Copyright 2013, Joe Richardson
+* lemonade.im
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*
+*/
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  /* Removes padding behavior on widths */
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Attribute selector */
+[class*='bit-'] {
+  float: left;
+  padding: 5px;
+}
+
+/* Floats last ".bit-" to the right */
+[class*='bit-']:last-of-type {
+  padding-right: 5px;
+  float: right;
+}
+
+/* Alternative for IE8  */
+.last-type {
+  padding:5px;
+  float:right;
+}
+
+/* Clearfix */
+.frame:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Main Widths */
+.bit-1  {width: 100%;}
+.bit-2  {width: 50%;}
+.bit-3  {width: 33.33%;}
+.bit-4  {width: 25%;}
+.bit-5  {width: 20%;}
+.bit-6  {width: 16.6666666667%;}
+.bit-7  {width: 14.2857142857%;}
+.bit-8  {width: 12.5%;}
+.bit-9  {width: 11.1111111111%;}
+.bit-10 {width: 10%;}
+.bit-11 {width: 9.09090909091%;}
+.bit-12 {width: 8.33%;}
+
+/* Landscape mobile & down */
+@media (max-width: 30em) {
+  .bit-1,
+  .bit-2,
+  .bit-3,
+  .bit-4,
+  .bit-5,
+  .bit-6,
+  .bit-7,
+  .bit-8,
+  .bit-9,
+  .bit-10,
+  .bit-11,
+  .bit-12 {
+    width: 100%;
+  }
+
+  .frame .bit-4:nth-child(2) {
+    float: right;
+  }
+
+  .frame .bit-4:nth-child(3) {
+    clear: both;
+    float: left;
+  }
+
+  .frame .bit-4:nth-child(4) {
+    float: right;
+  }
+}
+
+/* Portrait tablet to landscape */
+@media (min-width: 30em) and (max-width: 50em) {
+  .bit-4,
+  .bit-6,
+  .bit-8,
+  .bit-10,
+  .bit-12 {
+    width: 50%;
+  }
+
+  .bit-1,
+  .bit-2,
+  .bit-3,
+  .bit-5,
+  .bit-7,
+  .bit-9,
+  .bit-11 {
+    width: 100%;
+  }
+}
+
+/* Landscape to small desktop */
+@media (min-width: 50em) and (max-width: 68.750em) {
+  .bit-2,
+  .bit-7 {
+    width: 100%;
+  }
+
+  .bit-4,
+  .bit-8,
+  .bit-10,
+  .bit-12 {
+    width: 50%;
+  }
+}
+
+/* 
+* EasUI | A simple & lovely responsive CSS framework.
+* ----------------------------------------------------------
+* https://github.com/interwebstars/EASUI
+* ----------------------------------------------------------
+*
+* Made by : Interwebstars (https://github.com/interwebstars)
+* Licensed under MIT
+* 
+* menus.css
+*
+*/
+#body{
+  width:80%;
+  margin:auto;
+  margin-top:5em;
+}  
+ 
+/**/ 
+ nav[role="navigation"],
+ .navigation{
+  width:100%;
+  display:block;
+  height:3em;
+}
+ nav[role="navigation"] ul,
+ .navigation ul{list-style:none;padding:0;height:100%}
+ nav[role="navigation"] ul li,
+ .navigation ul li{
+  display:block;
+  float:left;
+  width:auto;
+  height:100%;
+  padding:0 2em;
+  border-bottom:.3em solid rgba(0,0,0,.4);
+  text-align:center;
+  line-height:3;
+  cursor:pointer;
+box-sizing:content-box;
+}
+ nav[role="navigation"] ul li a,
+ .navigation ul li a{
+  color:#5c5c5c;
+  text-decoration:none
+}
+ nav[role="navigation"] ul li a:hover,
+ .navigation ul li a:hover{
+  background:transparent;
+}
+ nav[role="navigation"] ul li:hover,
+ nav[role="navigation"] ul li:active,
+ .navigation ul li:hover,
+ .navigation ul li:active{
+  background:#e9e9e8;
+  border-bottom:.3em solid rgba(0,0,0,.2);
+}
+
+
+ nav[role="navigation"][data-theme="base"],
+ .navigation[data-theme="base"]{
+  width:100%;
+  display:block;
+  height:3em;
+}
+nav[role="navigation"][data-theme="base"] li,
+.navigation[data-theme="base"] li{
+    background:#c0c0bf;
+
+}
+/* themes */
+/* Red */
+ nav[role="navigation"][data-theme="red"] li,
+ .navigation[data-theme="red"] li{
+  background:#f77681;
+}
+
+ nav[role="navigation"][data-theme="red"] ul li,
+.navigation[data-theme="red"] ul li{
+  border-bottom:.3em solid #cc6069;
+}
+ nav[role="navigation"][data-theme="red"] ul li a,
+ .navigation[data-theme="red"] ul li a{
+  color:#f1f1f0;
+}
+ nav[role="navigation"][data-theme="red"] ul li:hover,
+ nav[role="navigation"][data-theme="red"] ul li:active,
+.navigation[data-theme="red"] ul li:hover,
+.navigation[data-theme="red"] ul li:active{
+  background:#e9e9e8;
+  border-bottom:.3em solid rgba(0,0,0,.2);
+}
+ nav[role="navigation"][data-theme="red"] ul li:hover a,
+ nav[role="navigation"][data-theme="red"] ul li:active a,
+.navigation[data-theme="red"] ul li:hover a,
+.navigation[data-theme="red"] ul li:active a{
+
+  color:#cc6069;
+}
+
+/* Blue */
+ nav[role="navigation"][data-theme="blue"] li,
+.navigation[data-theme="blue"] li{
+  background:#70baf7;
+}
+
+ nav[role="navigation"][data-theme="blue"] ul li,
+.navigation[data-theme="blue"] ul li{
+  border-bottom:.3em solid #63a8df;
+}
+ nav[role="navigation"][data-theme="blue"] ul li a,
+.navigation[data-theme="blue"] ul li a{
+  color:#f1f1f0;
+}
+ nav[role="navigation"][data-theme="blue"] ul li:hover,
+ nav[role="navigation"][data-theme="blue"] ul li:active,
+.navigation[data-theme="blue"] ul li:hover,
+.navigation[data-theme="blue"] ul li:active{
+  background:#e9e9e8;
+  border-bottom:.3em solid rgba(0,0,0,.2);
+}
+ nav[role="navigation"][data-theme="blue"] ul li:hover a,
+ nav[role="navigation"][data-theme="blue"] ul li:active a,
+.navigation[data-theme="blue"] ul li:hover a,
+.navigation[data-theme="blue"] ul li:active a{
+  color:#63a8df;
+}
+
+/* Green */
+ nav[role="navigation"][data-theme="green"] li,
+.navigation[data-theme="green"] li{
+  background:#a9ed83;
+}
+
+ nav[role="navigation"][data-theme="green"] ul li,
+.navigation[data-theme="green"] ul li{
+  border-bottom:.3em solid #98d575;
+}
+ nav[role="navigation"][data-theme="green"] ul li a,
+.navigation[data-theme="green"] ul li a{
+  color:#5c5c5c;
+}
+ nav[role="navigation"][data-theme="green"] ul li:hover,
+ nav[role="navigation"][data-theme="green"] ul li:active,
+.navigation[data-theme="green"] ul li:hover,
+.navigation[data-theme="green"] ul li:active{
+  background:#e9e9e8;
+  border-bottom:.3em solid rgba(0,0,0,.2);
+}
+ nav[role="navigation"][data-theme="green"] ul li:hover a,
+ nav[role="navigation"][data-theme="green"] ul li:active a,
+.navigation[data-theme="green"] ul li:hover a,
+.navigation[data-theme="green"] ul li:active a{
+  color:#404040;
+}
+/* Variant */
+/* Red--v */
+ nav[role="navigation"][data-theme="red--v"] li,
+.navigation[data-theme="red--v"] li{
+  background:#f77681;
+}
+
+ nav[role="navigation"][data-theme="red--v"] ul li,
+.navigation[data-theme="red--v"] ul li{
+  border-bottom:.3em solid #cc6069;
+}
+ nav[role="navigation"][data-theme="red--v"] ul li a,
+.navigation[data-theme="red--v"] ul li a{
+  color:#f1f1f0;
+}
+ nav[role="navigation"][data-theme="red--v"] ul li:hover,
+ nav[role="navigation"][data-theme="red--v"] ul li:active,
+ .navigation[data-theme="red--v"] ul li:hover,
+.navigation[data-theme="red--v"] ul li:active{
+  background:#fd8b96;
+  border-bottom:.3em solid #f77681;
+}
+ nav[role="navigation"][data-theme="red--v"] ul li:hover a,
+ nav[role="navigation"][data-theme="red--v"] ul li:active a,
+.navigation[data-theme="red--v"] ul li:hover a,
+.navigation[data-theme="red--v"] ul li:active a{
+  color:#f1f1f0;
+}
+
+/* Blue */
+ nav[role="navigation"][data-theme="blue--v"] li,
+.navigation[data-theme="blue--v"] li{
+  background:#70baf7;
+}
+
+ nav[role="navigation"][data-theme="blue--v"] ul li,
+.navigation[data-theme="blue--v"] ul li{
+  border-bottom:.3em solid #63a8df;
+}
+ nav[role="navigation"][data-theme="blue--v"] ul li a,
+.navigation[data-theme="blue--v"] ul li a{
+  color:#f1f1f0;
+}
+ nav[role="navigation"][data-theme="blue--v"] ul li:hover,
+ nav[role="navigation"][data-theme="blue--v"] ul li:active,
+.navigation[data-theme="blue--v"] ul li:hover,
+.navigation[data-theme="blue--v"] ul li:active{
+  background:#85c7fd;
+  border-bottom:.3em solid #70baf7;
+}
+ nav[role="navigation"][data-theme="blue--v"] ul li:hover a,
+ nav[role="navigation"][data-theme="blue--v"] ul li:active a,
+.navigation[data-theme="blue--v"] ul li:hover a,
+.navigation[data-theme="blue--v"] ul li:active a{
+  color:#f1f1f0;
+}
+
+/* Green */
+ nav[role="navigation"][data-theme="green--v"] li,
+.navigation[data-theme="green--v"] li{
+  background:#a9ed83;
+}
+
+ nav[role="navigation"][data-theme="green--v"] ul li,
+ .navigation[data-theme="green--v"] ul li {
+  border-bottom:.3em solid #98d575;
+}
+ nav[role="navigation"][data-theme="green--v"] ul li a,
+.navigation[data-theme="green--v"] ul li a{
+  color:#5c5c5c;
+}
+ nav[role="navigation"][data-theme="green--v"] ul li:hover,
+ nav[role="navigation"][data-theme="green--v"] ul li:active,
+.navigation[data-theme="green--v"] ul li:hover,
+.navigation[data-theme="green--v"] ul li:active{
+  background:#b8f397;
+  border-bottom:.3em solid rgba(0,0,0,.15);
+}
+ nav[role="navigation"][data-theme="green--v"] ul li:hover a,
+ nav[role="navigation"][data-theme="green--v"] ul li:active a,
+.navigation[data-theme="green--v"] ul li:hover a,
+.navigation[data-theme="green--v"] ul li:active a{
+  color:#404040;
+}
+
+
+/* Active state */
+nav[role="navigation"] ul li:active,
+.navigation ul li:active{
+  position:relative;
+  top:.15em;
+  border-bottom-width:.15em !important
+}
+
+/* Full width */
+nav[role="navigation"].full,
+.navigation.full{
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+ 
+  nav[role="navigation"] ul li,
+  .navigation ul li{
+    width:100%;
+    font-size:1.2em;
+    line-height:2;
+   /* Thanks to @sethabbott for his precious advice :) */
+    box-sizing:border-box;
+   /* I place the "box-sizing" rule here, because if I place
+    It on the ul li{} rule (line 55 ) That breaks the :active
+    state. */
+  }
+}
+/* 
+* EasUI | A simple & lovely responsive CSS framework.
+* ----------------------------------------------------------
+* https://github.com/interwebstars/EASUI
+* ----------------------------------------------------------
+*
+* Made by : Interwebstars (https://github.com/interwebstars)
+* Licensed under MIT
+* 
+* tables.css
+*
+* The tables uses a structure and a responsive method created
+* by David bushell ( @dbushell ) | http://dbushell.com/2012/01/05/responsive-tables-2/
+*/
+  table {
+    margin-bottom: 1em
+  }
+  table,tr,td{
+    box-shadow: inset 0 0 1px 0 rgba(0,0,0,.5);
+  }
+  td{
+     padding:.4em;
+  }
+  thead{
+    background:rgba(0,0,0,.1);
+  }
+  thead td{
+    font-weight:400;
+  }
+table tbody tr:hover {
+  background: #f4f4f4;
+}
+table tbdy tr:hover td {
+  color: #555;
+}
+/* Following lines are from David Bushell @dbushell */
+  thead:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+  * html .cf { zoom: 1; }
+  *:first-child+html .cf { zoom: 1; }
+
+
+
+  table { 
+    width: 100%; 
+    font-size: 0.75em;/*12*/ 
+    line-height: 1.25em;/*15*/ 
+    border-collapse: collapse; 
+    border-spacing: 0;
+  }
+
+   th,
+   td { 
+    margin: 0; 
+    padding: 0.4166em;/*10*/ 
+    vertical-align: top; 
+   }
+   th { 
+    text-align: left; 
+    background: #fff2b2; 
+   }
+
+/* Themes tables */
+.t--base thead{
+  background:#1abc9c;
+  color:#fff;
+}
+.t--blue thead{
+  background:#3498db;
+  color:#fff;
+}
+.t--red thead{
+  background:#e74c3c;
+  color:#fff;
+}
+.t--black thead{
+  background:#000;
+  color:#fff;
+}
+
+
+  @media only screen and (max-width: 767px) { /*640*/
+
+    table { display: block; position: relative; width: 100%; }
+    thead { display: block; float: left; }
+    tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+    thead tr { display: block; }
+    th { display: block; }
+    tbody tr { display: inline-block; vertical-align: top; }
+    td { display: block; min-height: 1.25em; }
+
+
+    /* sort out borders */
+
+     th { border-bottom: 0; }
+     td { border-left: 0; border-right: 0; border-bottom: 0; }
+     tbody tr { border-right: 1px solid rgba(0,0,0,.1); }
+     th:last-child,
+     td:last-child { border-bottom: 1px solid rgba(0,0,0,.1); }
+
+  }
+  /* 
+* EasUI | A simple & lovely responsive CSS framework.
+* ----------------------------------------------------------
+* https://github.com/interwebstars/EASUI
+* ----------------------------------------------------------
+*
+* Made by : Interwebstars (https://github.com/interwebstars)
+* Licensed under MIT
+* 
+* ui-elements.css
+*/
+
+/* Titles */
+.title{
+  letter-spacing:.15em;
+}
+.title--bold{
+    font-weight:bold;
+}
+/* Titles : colors */
+.title--primary{
+  color:#16a085
+}
+.title--blue{
+  color:#2980b9
+}
+.title--green{
+  color:#27ae60
+}
+.title--red{
+  color:#c0392b
+}
+.title--yellow{
+  color:#f39c12
+}
+.title--orange{
+  color:#d35400
+}
+.title--purple{
+  color:#8e44ad
+}
+.title--black{
+  color: #2c3e50
+}
+.title--white{
+  color:#bdc3c7
+}
+/* LABELS */
+.label{
+  font-size:.8em;
+  font-weight:500;
+  color:#fff;
+  padding:.2em .4em;
+  margin:auto .2em;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.10);
+  text-shadow:0 1px 0 rgba(0, 0, 0, .15);
+  background:#ccc;
+  border-radius:3px;
+}
+.label.label--cursor{
+  cursor:pointer
+}
+.label.label--rounded{
+  border-radius: 1em;
+  padding:.35em
+}
+.label.label--green{
+  background:#2ecc71;
+  text-shadow:0 1px 0 rgba(0, 0, 0, .15);
+}
+.label.label--warning{
+  background:#f4d871;
+  text-shadow:0 1px 0 rgba(0, 0, 0, .15);
+}
+.label.label--error{
+  background:#f47771;
+  text-shadow:0 1px 0 rgba(0, 0, 0, .15);
+}
+
+.label.label--blue{
+  background:#3498db;
+  text-shadow:0 1px 0 rgba(0, 0, 0, .15);
+}
+.label.label--black{
+  background:#2c3e50;
+  text-shadow:0 1px 0 rgba(0, 0, 0, .8);
+}
+
+.label--hover--blue:hover{
+  background:#3498db;
+}
+.label--hover--green:hover{
+  background:#2ecc71;
+}
+.label--hover--yellow:hover{
+  background:#f4d871;
+}
+.label--hover--red:hover{
+  background:#f47771;
+}
+.label--hover--black:hover{
+  background:#2c3e50;
+}
