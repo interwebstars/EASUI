@@ -603,7 +603,6 @@ padding:0.5em;
 line-height:1.2em;
 width:100%;
 cursor:pointer;
-background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
 -webkit-appearance:none;
 /*border-radius*/
 -webkit-border-radius:0.05em;
