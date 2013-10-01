@@ -21,10 +21,12 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 * menus.css 
 * Tables.css 
 * ui-elements.css
+* Forms.css
+
 
 # Needed stylesheets : 
 
-* Forms.css
+  [If you've got ideas, mail me @ lucas.bonomi[at]gmail.com ]
 
 
 # Features
