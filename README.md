@@ -5,9 +5,11 @@ A simple &amp; lovely responsive CSS framework.
 
 
 # How to get involve : 
+  1 You can [send me an email](mailto:lucas.bonomi@gmail.com) with suggestions, ideas, or just a sweet word.
+  2 You can *test* the framework, and open new issues.
+  3 You can *test* the framework.
+  4 You can *test* the framework.
 
-To take a part of this framework project, you can decide to create your own stylesheet. But, we would like to follow some structure.
-Each CSS stylesheet have to be independant. That means we're going to have many stylesheet and finally, they were compose only one stylesheet. 
 
 # Existant stylesheets : 
 
