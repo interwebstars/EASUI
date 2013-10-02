@@ -19,58 +19,67 @@
 *
 */
 
-/* ===================== Brandico ==========================
+/* ===================== Brandico ==========================*/
+/*
 @import url(http://weloveiconfonts.com/api/?family=brandico);
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif;
 }
 */
 
-/* ====================== Entypo ===========================
+/* ====================== Entypo ===========================*/
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
-*/
+/**/
 
-/* ==================== Fontawesome ========================
+/* ==================== Fontawesome ========================*/
+/*
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
 }
-*/
+/**/
 
-/* ===================== Fontelico =========================
+/* ===================== Fontelico =========================*/
+/*
 @import url(http://weloveiconfonts.com/api/?family=fontelico);
 [class*="fontelico-"]:before {
   font-family: 'fontelico', sans-serif;
 }
-*/
+/**/
 
-/* ======================= Maki ============================
+/* ======================= Maki ============================*/
+/*
 @import url(http://weloveiconfonts.com/api/?family=maki);
 [class*="maki-"]:before {
   font-family: 'maki', sans-serif;
 }
-*/
+/**/
 
-/* ==================== Openwebicons =======================
+/* ==================== Openwebicons =======================*/
+/*
 @import url(http://weloveiconfonts.com/api/?family=openwebicons);
 [class*="openwebicons-"]:before {
   font-family: 'OpenWeb Icons', sans-serif;
 }
-*/
+/**/
 
-/* ===================== Brandico ==========================
+/* ===================== Brandico ==========================*/
+/*
 @import url(http://weloveiconfonts.com/api/?family=typicons);
 [class*="typicons-"]:before {
   font-family: 'Typicons', sans-serif;
 }
-*/
+/**/
 
-/* ===================== Zocial ============================
+/* ===================== Zocial ============================*/
+/*
 @import url(http://weloveiconfonts.com/api/?family=zocial);
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
-}*/
+}
+/**/
+
 
