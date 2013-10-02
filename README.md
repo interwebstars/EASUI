@@ -17,7 +17,7 @@ A simple &amp; lovely responsive CSS framework.
 * [Buttons.css](https://github.com/interwebstars/EASUI/blob/master/framework/buttons.css)
 * [Grids.css](https://github.com/interwebstars/EASUI/blob/master/framework/grids.css)
 * [menus.css](https://github.com/interwebstars/EASUI/blob/master/framework/menus.css) 
-* [Tables.css](https://github.com/interwebstars/EASUI/blob/master/framework/tables.css) 
+* [tables.css](https://github.com/interwebstars/EASUI/blob/master/framework/tables.css) 
 * [ui-elements.css](https://github.com/interwebstars/EASUI/blob/master/framework/ui-elements.css)
 * [Forms.css](https://github.com/interwebstars/EASUI/blob/master/framework/forms.css)
 * [icons.css](https://github.com/interwebstars/EASUI/blob/master/framework/icons.css)
