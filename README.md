@@ -43,3 +43,11 @@ Just add this line into the `<head>`of your doc :
 ```html
 <link rel="stylesheet" type="text/css" href="http://easui.lucasbonomi.com/versions/1/1.3/easui-1.3.early.min.css">
 ```
+
+#Icons 
+For make the web better, and beautiful, we decided to use [WeLoveIconFonts](http://weloveiconfonts.com), because its easy to use, and you don't have to download anything, everything is in the cloud and you can easily switch between all icons library . 
+
+To include icons into you page, just add this line before the framework inclusion : 
+```html
+<link rel="stylesheet" type="text/css" href="http://easui.lucasbonomi.com/versions/1/1.3/icons-easui-1.3.early.min.css">
+```
