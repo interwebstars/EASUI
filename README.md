@@ -50,4 +50,4 @@ For make the web better, and beautiful, we decided to use [WeLoveIconFonts](http
 To include icons into you page, just add this line before the framework inclusion : 
 ```html
 <link rel="stylesheet" type="text/css" href="http://easui.lucasbonomi.com/versions/1/1.3/icons-easui-1.3.early.min.css">
-```
+``` 
