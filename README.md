@@ -33,7 +33,6 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
   
   * The grid system use [Lemonade](https://github.com/dope/lemonade)
   * The framework use [weloveiconfonts](http://weloveiconfonts.com)
-
 # Use it 
 
 If you want to use EasUI right now. 
