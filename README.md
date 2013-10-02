@@ -36,7 +36,7 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
   The spirit of the framework revolves around cleanliness, calm, Flat design & smooth visuals.
 
 # Use it 
-
+ 
 If you want to use EasUI right now. 
   
 Just add this line into the `<head>` of your doc :
