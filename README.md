@@ -46,11 +46,11 @@ Just add this line into the `<head>`of your doc :
 <link rel="stylesheet" type="text/css" href="http://easui.lucasbonomi.com/versions/1/1.3/easui-1.3.early.min.css">
 ```
 
-#Icons 
+#Icons (entypo)
 For make the web better, and beautiful, we decided to use [WeLoveIconFonts](http://weloveiconfonts.com), because its easy to use, and you don't have to download anything, everything is in the cloud and you can easily switch between all icons library . 
 
+We're working hard to make all the icons available, but for the demo and pre-releases, we will only use the Entypo icon font.
 To include icons into you page, just add this line before the framework inclusion : 
 ```html
 <link rel="stylesheet" type="text/css" href="http://easui.lucasbonomi.com/versions/1/1.3/icons-easui-1.3.early.min.css">
 ``` 
-Then you just have to properly uncomment the icons libraries you want to import. And if you want just one, don't forget to comment all the others.
