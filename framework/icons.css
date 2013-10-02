@@ -15,6 +15,9 @@
 * To use an iconset, you just have to uncomment the desired
 * iconset you like. Don't forget to manage them well, if you
 * forget to re-comment an iconset, your pagespeed can suffer
+*
+* if you want to use more than 2 fonts, you should create a
+* single request URL on weloveiconfonts.com
 * ==========================================================
 *
 */
