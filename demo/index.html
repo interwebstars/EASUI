@@ -1,0 +1,671 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EaseUi - Framework - Demo</title>
+
+
+
+<link rel="stylesheet" href="../css/screen_layout.css">
+
+<!-- <link rel="stylesheet" href="http://easui.lucasbonomi.com/versions/1/1.0/easui-1.0.early.css"> -->
+<!-- <link rel="stylesheet" href="http://easui.lucasbonomi.com/versions/1/1.1/easui-1.1.early.css"> -->
+ <link rel="stylesheet" href="http://easui.lucasbonomi.com/versions/1/1.3/easui-1.3.early.min.css"> 
+<!--
+<link rel="stylesheet" href="http://easui.lucasbonomi.com/framework/base.css">
+<link rel="stylesheet" href="http://easui.lucasbonomi.com/framework/buttons.css">
+<link rel="stylesheet" href="http://easui.lucasbonomi.com/framework/forms.css">
+<link rel="stylesheet" href="http://easui.lucasbonomi.com/framework/grids.css">
+<link rel="stylesheet" href="http://easui.lucasbonomi.com/framework/menus.css">
+<link rel="stylesheet" href="http://easui.lucasbonomi.com/framework/tables.css">
+<link rel="stylesheet" href="http://easui.lucasbonomi.com/framework/ui-elements.css"> -->
+
+<style type="text/css">
+body{ 
+background:#2c3e50;}
+#forms div[class*="bit-"]{background:#fff;}
+
+h1,h2,h3{margin:.5em auto .3em;}
+.btn{border:0}
+.color{float:left;width:100%;}   
+.color li{
+width:10%;
+height:2em;
+border: 1px solid #fff;
+float:left;
+display:block;
+cursor:pointer;}
+.color li.green{background:#2ecc71}
+.color li.base{background:#1abc9c}
+.color li.blue{background:#3498db}
+.color li.red{background:#e74c3c}
+.color li.orange{background:#e67e22}
+.color li.yellow{background:#f1c40f}
+.color li.purple{background:#9b59b6}
+.color li.black{background:#2c3e50}
+.color li.grey{background:#95a5a6}
+.color li.light{background:#bdc3c7}
+
+  body{
+  background:#34495e
+}
+.da-grid div[class*="bit-"]{
+  box-shadow:inset 0 0 0 .4em #1abc9c;
+  height:2em;
+  padding:1em; 
+  margin:.4em auto;
+} 
+
+/* Style  */
+.show{padding:1em;}
+.show p{color:#fff;margin:1em auto;}
+
+.show p a,.show code{color:#fff;}
+
+.grid{
+  margin-top:1em
+}
+
+
+.grid div[class*="bit-"]{
+  height:auto;
+  padding:1em; 
+  margin:.4em auto;
+} 
+
+.grid.sample{color:#fff}
+
+div[class*="bit-"] img{
+  width:12em;
+  display:block;
+  margin:6vh auto 0;
+border-radius:100%;
+}
+.grid div[class*="section"]{  
+  background:#1abc9c;
+}
+.pricing-table .bit-3 >.bit-1{
+  background:#1abc9c;
+}
+
+.right{float:right;
+
+width: 100%;
+padding-bottom: 3em}
+</style>
+</head>
+<body>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar pure-u">
+        <header class="header">
+            <hgroup>
+                <h1 class="brand-title">eas<span>UI</span>.</h1>
+                <h2 class="brand-tagline">A <span>simple</span> & <span>lovely</span> CSS framework</h2>
+            </hgroup>
+
+            <nav class="nav">
+                <ul class="nav-list right">
+                 <li class="nav-item">
+                        <a class="pure-button" href="http://easui.lucasbonomi.com">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="http://sandbox.lucasbonomi.com/framework/easui/">v1.0</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="https://github.com/interwebstars/EASUI">GitHub</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="pure-u-1">
+      <div class="content">
+ <div class="show"> 
+   <h1 class="title title--white">Demos</h1>
+
+  <h1 class="title title--white">EasUI Grid with Lemonade</h1>
+   <p>EasUI need an elegant and responsive grid system, thats why we decided to choose <a href="http://lemonade.im">Lemonade</a> for our grid.<br/>
+Why do you need to create an other grid when you can find good ones ? </p>
+   
+   <p>Let's play with the size of your window to see how lemonade is smart and adaptative.</p>
+   <div class="grid">
+
+   <div class="da-grid">
+   <div class="bit-1">
+   
+  </div>
+
+ <div class="bit-2">
+   
+  </div>
+ <div class="bit-2">
+   
+  </div>
+
+  <div class="bit-4">
+    
+  </div>
+  <div class="bit-4">
+    
+  </div>
+  <div class="bit-4">
+    
+  </div>
+  <div class="bit-4">
+    
+  </div>
+
+  
+  
+  
+    <div class="bit-5">
+ 
+  </div>
+ <div class="bit-5">
+  
+  </div>
+<div class="bit-5">
+  
+  </div>
+ <div class="bit-5">
+   
+  </div>
+   <div class="bit-5">
+   
+  </div>
+  
+  <div class="bit-6">
+    
+  </div>
+  <div class="bit-6">
+    
+  </div>
+  <div class="bit-6">
+    
+  </div>
+  <div class="bit-6">
+    
+  </div>
+  <div class="bit-6">
+    
+  </div>
+  <div class="bit-6">
+    
+  </div>
+  
+  
+  <div class="bit-7">
+    
+  </div>
+  <div class="bit-7">
+    
+  </div>
+  <div class="bit-7">
+    
+  </div>
+  <div class="bit-7">
+    
+  </div>
+  <div class="bit-7">
+    
+  </div>
+  <div class="bit-7">
+    
+  </div>
+  <div class="bit-7">
+    
+  </div>
+  
+  
+  
+  
+   <div class="bit-8">
+    
+  </div>
+  <div class="bit-8">
+    
+  </div>
+  <div class="bit-8">
+    
+  </div>
+  <div class="bit-8">
+    
+  </div>
+  <div class="bit-8">
+    
+  </div>
+  <div class="bit-8">
+    
+  </div>
+  <div class="bit-8">
+    
+  </div>
+   <div class="bit-8">
+    
+  </div>
+  
+  
+  
+  <div class="bit-9">
+    
+  </div>
+  <div class="bit-9">
+    
+  </div>
+  <div class="bit-9">
+    
+  </div>
+  <div class="bit-9">
+    
+  </div>
+  <div class="bit-9">
+    
+  </div>
+  <div class="bit-9">
+    
+  </div>
+  <div class="bit-9">
+    
+  </div>
+  <div class="bit-9">
+    
+  </div>
+  <div class="bit-9">
+    
+  </div>
+  
+  
+  
+  <div class="bit-10">
+    
+  </div>
+  <div class="bit-10">
+    
+  </div>
+  <div class="bit-10">
+    
+  </div>
+  <div class="bit-10">
+    
+  </div>
+  <div class="bit-10">
+    
+  </div>
+  <div class="bit-10">
+    
+  </div>
+  <div class="bit-10">
+    
+  </div>
+  <div class="bit-10">
+    
+  </div>
+  <div class="bit-10">
+    
+  </div>
+  <div class="bit-10">
+    
+  </div>
+  
+  
+  
+   <div class="bit-11">
+    
+  </div>
+  <div class="bit-11">
+    
+  </div>
+  <div class="bit-11">
+    
+  </div>
+  <div class="bit-11">
+    
+  </div>
+  <div class="bit-11">
+    
+  </div>
+  <div class="bit-11">
+    
+  </div>
+  <div class="bit-11">
+    
+  </div>
+  <div class="bit-11">
+    
+  </div>
+  <div class="bit-11">
+    
+  </div>
+  <div class="bit-11">
+    
+  </div>
+   <div class="bit-11">
+    
+  </div>
+  
+  
+  
+   <div class="bit-12">
+    
+  </div>
+  <div class="bit-12">
+    
+  </div>
+  <div class="bit-12">
+    
+  </div>
+  <div class="bit-12">
+    
+  </div>
+  <div class="bit-12">
+    
+  </div>
+  <div class="bit-12">
+    
+  </div>
+  <div class="bit-12">
+    
+  </div>
+  <div class="bit-12">
+    
+  </div>
+  <div class="bit-12">
+    
+  </div>
+  <div class="bit-12">
+    
+  </div>
+   <div class="bit-12">
+    
+  </div>
+ <div class="bit-12">
+    
+  </div>
+  </div>
+   
+   </div>
+
+  <h1 class="title title--white">Layouts</h1>
+
+<p>Now You saw the grid system, you have to get how it works, we choose lemonade because its easy to understand.</p>
+
+<p>When you want to create a grid, you have to see it as a big system of blocks, and lemonade work this way.</p>
+
+<p>If you want to create a block of full width, just write this :</p> 
+<code> &lt; div class="bit-1"&gt;&lt;/div&gt; </code>
+
+<p>So if you want two block of equal width in your layout you have to write :</p>
+ <code> &lt; div class="bit-2"&gt;&lt;/div&gt;  &lt; div class="bit-2"&gt;&lt;/div&gt; </code>
+
+ <p>And so on, so now let's see how a basic layout could look a like with this grid system! </p>
+
+<div class="grid sample">
+  <div class="bit-1">
+  <div class="section bit-1">
+  <div class="bit-2">
+    <h1 class="title">Jon Doe <span class="label label--blue">Designer</span></h1>
+    <p>Pug cliche Neutra Intelligentsia authentic, literally small batch street art chambray Thundercats freegan food truck American Apparel Brooklyn. Quinoa Carles farm-to-table Blue Bottle, Schlitz cred hashtag Intelligentsia biodiesel fap Tonx banh mi mumblecore keffiyeh. Try-hard fixie selvage kitsch mlkshk fap. +1 mlkshk fap, 90's authentic hella Odd Future gastropub bespoke. Fanny pack Neutra blog, YOLO American Apparel distillery typewriter direct trade Vice you probably haven't heard of them locavore cliche Brooklyn. Selfies cornhole four loko Shoreditch artisan. Skateboard bicycle rights fanny pack Odd Future, lo-fi aesthetic Echo Park Carles pork belly PBR Neutra.</p>
+  </div>
+  <div class="bit-3">
+    <img src="http://www.barhappy.com/assets/barHappy_placeholder_user.png" alt="" />
+  </div>
+  </div>
+  
+  
+  <div class="section bit-1">
+    <h1 class="right title">Jane Doe <span class="label label--blue">Graphist</span></h1>
+  <div class="bit-3">
+    <img src="http://www.barhappy.com/assets/barHappy_placeholder_user.png" alt="" />
+  </div>
+  <div class="bit-2">
+    <p>Pug cliche Neutra Intelligentsia authentic, literally small batch street art chambray Thundercats freegan food truck American Apparel Brooklyn. Quinoa Carles farm-to-table Blue Bottle, Schlitz cred hashtag Intelligentsia biodiesel fap Tonx banh mi mumblecore keffiyeh. Try-hard fixie selvage kitsch mlkshk fap. +1 mlkshk fap, 90's authentic hella Odd Future gastropub bespoke. Fanny pack Neutra blog, YOLO American Apparel distillery typewriter direct trade Vice you probably haven't heard of them locavore cliche Brooklyn. Selfies cornhole four loko Shoreditch artisan. Skateboard bicycle rights fanny pack Odd Future, lo-fi aesthetic Echo Park Carles pork belly PBR Neutra.</p>
+  </div>
+</div>
+
+
+<div class="pricing-table">
+
+  <div class="bit-1">
+    <div class="bit-3">
+      <div class="bit-1">
+         <h1 class="title">BASIC <span class="label label--black label--cursor label--hover--blue">FREE</span></h1>
+         <p>Pug cliche Neutra Intelligentsia authentic, literally small batch street art chambray Thundercats freegan food truck American Apparel Brooklyn. Quinoa Carles farm-to-table Blue Bottle, Schlitz cred hashtag Intelligentsia biodiesel fap Tonx banh mi mumblecore keffiyeh. Try-hard fixie selvage kitsch mlkshk fap. +1 mlkshk fap, 90's authentic hella Odd Future gastropub bespoke. Fanny pack Neutra blog, YOLO American Apparel distillery typewriter direct trade Vice you probably haven't heard of them locavore cliche Brooklyn. Selfies cornhole four loko Shoreditch artisan. Skateboard bicycle rights fanny pack Odd Future, lo-fi aesthetic Echo Park Carles pork belly PBR Neutra.</p><br>
+       <a href="#" class="btn btn--blue btn--border bit-1">Subscribe</a>
+     </div>
+  </div>
+  
+  
+  
+    <div class="bit-3">
+      <div class="bit-1">
+         <h1 class="title">MEMBER <span class="label label--black label--cursor label--hover--blue">10$</span></h1>
+         <p>Pug cliche Neutra Intelligentsia authentic, literally small batch street art chambray Thundercats freegan food truck American Apparel Brooklyn. Quinoa Carles farm-to-table Blue Bottle, Schlitz cred hashtag Intelligentsia biodiesel fap Tonx banh mi mumblecore keffiyeh. Try-hard fixie selvage kitsch mlkshk fap. +1 mlkshk fap, 90's authentic hella Odd Future gastropub bespoke. Fanny pack Neutra blog, YOLO American Apparel distillery typewriter direct trade Vice you probably haven't heard of them locavore cliche Brooklyn. Selfies cornhole four loko Shoreditch artisan. Skateboard bicycle rights fanny pack Odd Future, lo-fi aesthetic Echo Park Carles pork belly PBR Neutra.</p><br>
+        <a href="#" class="btn btn--blue btn--border bit-1">Subscribe</a>
+     </div>
+    </div>
+  
+  
+  
+    <div class="bit-3">
+      <div class="bit-1">
+         <h1 class="title">MEMBER <span class="label label--black label--cursor label--hover--blue">15$</span></h1>
+         <p>Pug cliche Neutra Intelligentsia authentic, literally small batch street art chambray Thundercats freegan food truck American Apparel Brooklyn. Quinoa Carles farm-to-table Blue Bottle, Schlitz cred hashtag Intelligentsia biodiesel fap Tonx banh mi mumblecore keffiyeh. Try-hard fixie selvage kitsch mlkshk fap. +1 mlkshk fap, 90's authentic hella Odd Future gastropub bespoke. Fanny pack Neutra blog, YOLO American Apparel distillery typewriter direct trade Vice you probably haven't heard of them locavore cliche Brooklyn. Selfies cornhole four loko Shoreditch artisan. Skateboard bicycle rights fanny pack Odd Future, lo-fi aesthetic Echo Park Carles pork belly PBR Neutra.</p><br>
+                <a href="#" class="btn btn--blue btn--border bit-1">Subscribe</a>
+
+     </div>
+    </div>
+  </div>
+  </div>
+
+</div>
+
+
+</div>
+   <div id="forms">
+
+ <div class="bit-1 body">
+
+ <h3 class="title title--black title--bold">Themes</h3>
+   <ul class="color">
+     <li class="green"></li>
+     <li class="base"></li>
+     <li class="blue"></li>
+     <li class="red"></li>
+     <li class="orange"></li>
+     <li class="yellow"></li>
+     <li class="purple"></li>
+     <li class="black"></li>
+     <li class="grey"></li>
+     <li class="light"></li>
+   </ul>
+
+   <!-- range -->
+   <div class="bit-2">
+      <h1 class="title title--black title--bold">Sliders</h1>
+     <!--  <input type="range" class="" min="0"  max="100"  step="0.1"  value="0.3"/>
+      <input type="range" class="green" min="0"  max="100"  step="0.1"  value="0.3"/>
+      <input type="range" class="base" min="0"  max="100"  step="0.1"  value="0.3"/>
+      <input type="range" class="blue" min="0"  max="100"  step="0.1"  value="0.3"/>
+      <input type="range" class="red" min="0"  max="100"  step="0.1"  value="0.3"/>
+      <input type="range" class="orange" min="0"  max="100"  step="0.1"  value="0.3"/>
+      <input type="range" class="yellow" min="0"  max="100"  step="0.1"  value="0.3"/>
+      <input type="range" class="purple" min="0"  max="100"  step="0.1"  value="0.3"/> -->
+      <input type="range"  min="0"  max="100"  step="0.1"  value="0.3" data-theme="base"/>
+   </div>
+  <!-- //range -->
+
+   <div class="bit-2">
+      <h1 class="title title--black  title--bold">Radio Checkboxes</h1>
+      <div class="bit-2">
+         <input type="radio" name="radio"  data-theme="base"/>
+         <input type="radio" name="radio" checked  data-theme="base"/>
+         <input type="radio" name="radio_d" disabled  data-theme="base"/>
+         <input type="radio" name="radio_d" checked disabled  data-theme="base"/> 
+      </div>
+      <div class="bit-2">  
+         <input type="checkbox"  data-theme="base"/>
+         <input type="checkbox" checked  data-theme="base"/>
+         <input type="checkbox" disabled  data-theme="base"/>
+         <input type="checkbox" checked disabled  data-theme="base"/>
+      </div>
+      <h3 class="title title--black title--bold">Plain</h3>
+      <div class="bit-2">
+         <input type="radio" class="plain" name="radio_plain"  data-theme="base"/>
+         <input type="radio" class="plain" name="radio_plain" data-theme="base" checked />
+         <input type="radio" class="plain" name="radio_plain_d" data-theme="base" disabled/>
+         <input type="radio" class="plain" name="radio_plain_d" data-theme="base" checked disabled/>
+      </div>
+      <div class="bit-2">  
+         <input type="checkbox" class="plain"  data-theme="base"/>
+         <input type="checkbox" class="plain" checked data-theme="base"/>
+         <input type="checkbox" class="plain" disabled  data-theme="base"/>
+         <input type="checkbox" class="plain" checked disabled  data-theme="base"/>
+      </div>
+      <div class="bit-1">
+         <h1 class="title title--black  title--bold">Inputs text</h1>
+         <input type="text"  data-theme="base"/>
+         <input type="text" placeholder="Text"  data-theme="base"/>
+         <input type="text" disabled placeholder="disabled"  data-theme="base"/>
+         <input type="text" class="focus" placeholder="forced focus" data-theme="base" />
+         <h3 class="title title--black  title--bold">Inputs with icons</h3>
+         <span class="input-icon" data-theme="base"><i class="entypo-user"></i><input type="text" focus /></span>
+         <span class="input-icon" data-theme="base"><i class="entypo-cancel-circled"></i><input type="text" focus /></span>
+         <span class="input-icon" data-theme="base"><i class="entypo-forward"></i><input type="text" focus /></span>
+         <span class="input-icon" data-theme="base"><i class="entypo-pencil"></i><input type="text" focus /></span>
+         <h3 class="title title--black title--bold">Plain</h3>
+         <input type="text" class="plain"  data-theme="base"/>
+         <input type="text" class="plain" placeholder="Text"  data-theme="base"/>
+         <input type="text" class="plain" disabled placeholder="disabled"  data-theme="base"/>
+         <input type="text" class="plain focus" placeholder="forced focus"  data-theme="base"/>
+      </div>
+   </div>
+
+<div class="bit-1">
+  <h1 class="title title--black title--bold">Textarea</h1>
+  
+  <textarea class="bit-1" data-theme="base">
+Paleo cornhole narwhal hella stumptown bespoke. Biodiesel swag butcher, typewriter street art ethnic gastropub ugh literally freegan. Portland 3 wolf moon deep v, farm-to-table High Life bicycle rights meggings asymmetrical artisan seitan drinking vinegar Carles ethnic tofu chambray. 
+  </textarea>
+  <textarea class="bit-1" placeholder="You can write text here"  data-theme="base"></textarea>
+  <textarea class="bit-1" disabled  data-theme="base">
+Paleo cornhole narwhal hella stumptown bespoke. Biodiesel swag butcher, typewriter street art ethnic gastropub ugh literally freegan. Portland 3 wolf moon deep v, farm-to-table High Life bicycle rights meggings asymmetrical artisan seitan drinking vinegar Carles ethnic tofu chambray. 
+  </textarea>
+  <textarea class="bit-1 focus"  data-theme="base">
+Paleo cornhole narwhal hella stumptown bespoke. Biodiesel swag butcher, typewriter street art ethnic gastropub ugh literally freegan. Portland 3 wolf moon deep v, farm-to-table High Life bicycle rights meggings asymmetrical artisan seitan drinking vinegar Carles ethnic tofu chambray. 
+  </textarea><br>
+  <h3 class="title title--black title--bold" >Plain</h3>
+  <textarea class="bit-1 plain" data-theme="base">Paleo cornhole narwhal hella stumptown bespoke. Biodiesel swag butcher, typewriter street art ethnic gastropub ugh literally freegan. Portland 3 wolf moon deep v, farm-to-table High Life bicycle rights meggings asymmetrical artisan seitan drinking vinegar Carles ethnic tofu chambray. 
+  </textarea>
+  <textarea class="bit-1 plain" placeholder="I'm a placeholder" data-theme="base"></textarea>
+  <textarea class="bit-1 plain"  disabled data-theme="base">Paleo cornhole narwhal hella stumptown bespoke. Biodiesel swag butcher, typewriter street art ethnic gastropub ugh literally freegan. Portland 3 wolf moon deep v, farm-to-table High Life bicycle rights meggings asymmetrical artisan seitan drinking vinegar Carles ethnic tofu chambray. </textarea>
+  <textarea class="bit-1 plain focus" data-theme="base">Paleo cornhole narwhal hella stumptown bespoke. Biodiesel swag butcher, typewriter street art ethnic gastropub ugh literally freegan. Portland 3 wolf moon deep v, farm-to-table High Life bicycle rights meggings asymmetrical artisan seitan drinking vinegar Carles ethnic tofu chambray. 
+  </textarea>
+</div>  
+  
+<div class="bit-2">
+  <h1 class="title title--black title--bold">Select</h1>
+  
+  <select data-theme="base">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+  
+  <h3 class="title title--black title--bold" >Plain</h3>
+
+
+  <select class="plain" data-theme="base">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+</div>   
+<div class="bit-2">
+    <h1 class="title title--black title--bold">Buttons</h1>
+  
+  <button class="btn btn--black" data-theme="base"> Submit (&lt;button&gt;) </button>
+  <input type="button" value="submit (<input type=button>)" class="btn btn--black"  data-theme="base"/>
+  
+   <input type="button" value="disabled" class="btn btn--black" disabled  data-theme="base"/>
+</div>   
+  
+  <h3 class="title title--black title--bold">Icons (Random)</h3>
+ <button class="btn btn--black" data-theme="base"> <span class="entypo-mobile"></span></button>
+  
+   <button class="btn btn--black" data-theme="base"> <span class="entypo-monitor"></span></button>
+  
+    <button class="btn btn--black" data-theme="base"> <span class="entypo-window"></span></button>
+  
+    <button class="btn btn--black" data-theme="base"> <span class="entypo-cog"></span></button>
+  
+    <button class="btn btn--black" data-theme="base"> <span class="entypo-home"></span></button>
+  
+    <button class="btn btn--black" data-theme="base"> <span class="entypo-folder"></span></button>
+  
+    <button class="btn btn--black" data-theme="base"> <span class="entypo-export"></span></button>
+  
+   
+  </div>   
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  var it = $('body').find("[data-theme]"),
+      green = $('.green'),
+      base = $('.base'),
+      blue = $('.blue'),
+      red = $('.red'),
+      orange = $('.orange'),
+      yellow = $('.yellow'),
+      purple = $('.purple'),
+      black = $('.black'),
+      grey = $('.grey'),
+      light = $('.light');
+  
+  green.on('click',function(){
+    it.attr('data-theme','green');
+  });
+   base.on('click',function(){
+    it.attr('data-theme','base');
+  });
+   blue.on('click',function(){
+    it.attr('data-theme','blue');
+  });
+   red.on('click',function(){
+    it.attr('data-theme','red');
+  }); 
+  orange.on('click',function(){
+    it.attr('data-theme','orange');
+  });
+  yellow.on('click',function(){
+    it.attr('data-theme','yellow');
+  });
+  purple.on('click',function(){
+    it.attr('data-theme','purple');
+  });
+  black.on('click',function(){
+    it.attr('data-theme','black');
+  });
+  grey.on('click',function(){
+    it.attr('data-theme','grey');
+  });
+  light.on('click',function(){
+    it.attr('data-theme','light');
+  });
+});
+</script>
+<script type="text/javascript" src="http://lab.web-gate.fr/prefixfree.min.js"></script>
+</body>
+</html>
