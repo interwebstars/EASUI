@@ -22,7 +22,7 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 
 # Needed stylesheets : 
 
-  [If you've got ideas, mail me @ lucas.bonomi[at]gmail.com ]
+  [If you've got ideas, mail me @ [lucas.bonomi[at]gmail.com](mailto:lucas.bonomi[at]gmail.com) ]
 
 
 # Features
