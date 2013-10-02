@@ -4,10 +4,6 @@
 A simple &amp; lovely responsive CSS framework.
 
 
-# Aim : 
-Bring the best of user interface modules, with simplicity.
-
-
 # How to get involve : 
 
 To take a part of this framework project, you can decide to create your own stylesheet. But, we would like to follow some structure.
@@ -34,8 +30,10 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
   * The grid system use [Lemonade](https://github.com/dope/lemonade)
   * The framework use [weloveiconfonts](http://weloveiconfonts.com)
 
-# Spirit
-  The spirit of the framework is to 
+# Aim and Spirit
+  The goal of the framework is to bring the best of user interface modules, with simplicity. 
+  The spirit of the framework revolves around cleanliness, calm, Flat design & smooth visuals.
+
 # Use it 
 
 If you want to use EasUI right now. 
