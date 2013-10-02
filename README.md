@@ -53,3 +53,4 @@ To include icons into you page, just add this line before the framework inclusio
 ```html
 <link rel="stylesheet" type="text/css" href="http://easui.lucasbonomi.com/versions/1/1.3/icons-easui-1.3.early.min.css">
 ``` 
+Then you just have to properly uncomment the icons libraries you want to import. And if you want just one, don't forget to comment all the others.
