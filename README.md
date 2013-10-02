@@ -1,4 +1,4 @@
-![easui logo](http://lab.web-gate.fr/images/easui.png)
+![easui logo](http://lab.web-gate.fr/images/easui-pre.png)
 ===== 
 
 A simple &amp; lovely responsive CSS framework.
