@@ -1,5 +1,5 @@
 ![easui logo](http://lab.web-gate.fr/images/easui.png)
-=====
+===== 
 
 A simple &amp; lovely responsive CSS framework.
 
