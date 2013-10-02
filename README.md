@@ -11,13 +11,14 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 
 # Existant stylesheets : 
 
-* Base.css 
-* Buttons.css 
-* Grids.css
-* menus.css 
-* Tables.css 
-* ui-elements.css
-* Forms.css
+* [Base.css](https://github.com/interwebstars/EASUI/blob/master/framework/base.css)
+* [Buttons.css](https://github.com/interwebstars/EASUI/blob/master/framework/buttons.css)
+* [Grids.css](https://github.com/interwebstars/EASUI/blob/master/framework/grids.css)
+* [menus.css](https://github.com/interwebstars/EASUI/blob/master/framework/menus.css) 
+* [Tables.css](https://github.com/interwebstars/EASUI/blob/master/framework/tables.css) 
+* [ui-elements.css](https://github.com/interwebstars/EASUI/blob/master/framework/ui-elements.css)
+* [Forms.css](https://github.com/interwebstars/EASUI/blob/master/framework/forms.css)
+* [icons.css](https://github.com/interwebstars/EASUI/blob/master/framework/icons.css)
 
 
 # Needed stylesheets : 
