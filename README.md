@@ -30,10 +30,12 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 
 
 # Features
-  
+  * The framework use [Normalize.css](http://necolas.github.io/normalize.css/)
   * The grid system use [Lemonade](https://github.com/dope/lemonade)
   * The framework use [weloveiconfonts](http://weloveiconfonts.com)
 
+# Spirit
+  The spirit of the framework is to 
 # Use it 
 
 If you want to use EasUI right now. 
