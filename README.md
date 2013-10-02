@@ -40,10 +40,9 @@ Each CSS stylesheet have to be independant. That means we're going to have many 
 If you want to use EasUI right now. 
   
 Just add this line into the 
-```hyml
+```html
 <head>
-```
-of your doc :
+``` of your doc :
 ```html
 <link rel="stylesheet" type="text/css" href="http://easui.lucasbonomi.com/versions/1/1.3/easui-1.3.early.min.css">
 ```
