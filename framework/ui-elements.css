@@ -102,3 +102,138 @@
 .label--hover--black:hover{
   background:#2c3e50;
 }
+img.border{
+padding:.3em;
+border:.1em solid #d6d6d6;
+}
+/* Bordered @_kevinatari*/
+  .bordered img{
+display:block;
+padding:.4em;
+background:#ecf0f1;
+margin:2.4em auto;
+border:.1em solid #d6d6d6;
+}
+/* Border */
+  img.smooth{
+/*border-radius*/
+-webkit-border-radius:.25em;
+   -moz-border-radius:.25em;
+        border-radius:.25em;
+}
+/* rounded */
+img.rounded{
+/*border-radius*/
+-webkit-border-radius:100%;
+   -moz-border-radius:100%;
+        border-radius:100%;
+}
+/* Big */
+img.big{
+/**/
+margin:auto 4%;
+*margin:auto 4%;
+width:92%;
+/* Depend of the width of the parent element */
+}
+img.big + img.big{
+margin:1em auto;
+}
+/* Wide */
+img.wide{
+/**/
+margin:0 -1.2%;
+width:102.4%;
+/* Depend of the width of the parent element */
+}
+img.wide + img.wide{
+margin:1em -1.2%;
+}
+/* cover*/ 
+.img-cover{
+width:8em;
+height:auto;
+display:block;
+overflow:hidden;
+cursor:pointer;
+/**/
+margin:auto;
+}
+.img-cover img{
+width:100%;
+}
+.img-cover .cover{
+display:block;
+margin:auto;
+/* You have to set the same width as the .img-cover*/
+width:8em;
+height:8em;
+background:rgba(0,0,0,.65);
+position:absolute;
+/*transition*/
+-webkit-transition:opacity .2s ease;
+   -moz-transition:opacity .2s ease;
+     -o-transition:opacity .2s ease;
+        transition:opacity .2s ease;
+}
+.img-cover.blue .cover{
+background:rgba(52,152,219,.65);
+}
+.img-cover.red .cover{
+background:rgba(231,76,60,.65);
+}
+.img-cover.green .cover{
+background:rgba(46,204,113,.65);
+}
+.img-cover:hover .cover,
+  .img-cover:active .cover{
+opacity:0;
+}
+.img-cover.rounded{
+/*border-radius*/
+-webkit-border-radius:100%;
+   -moz-border-radius:100%;
+        border-radius:100%;
+}
+.img-cover.rounded .cover{
+/*border-radius*/
+-webkit-border-radius:100%;
+   -moz-border-radius:100%;
+        border-radius:100%;
+}
+.img-cover.rounded img{
+/*border-radius*/
+-webkit-border-radius:100%;
+   -moz-border-radius:100%;
+        border-radius:100%;
+}
+.img-cover.smooth{
+/*border-radius*/
+-webkit-border-radius:.25em;
+   -moz-border-radius:.25em;
+        border-radius:.25em;
+}
+.img-cover.smooth .cover{
+/*border-radius*/
+-webkit-border-radius:.25em;
+   -moz-border-radius:.25em;
+        border-radius:.25em;
+}
+.img-cover.smooth img{
+/*border-radius*/
+-webkit-border-radius:.25em;
+   -moz-border-radius:.25em;
+        border-radius:.25em;
+}
+.img-cover.mention{
+}
+.img-cover.mention .cover{
+text-align:center;
+color:#fff;
+line-height:8;
+}
+@media (max-width: 50em){
+.img-cover .cover{
+display:none;
+}
+}
