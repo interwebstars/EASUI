@@ -694,7 +694,7 @@ input[type="range"][data-theme="grey"]::-webkit-slider-thumb {
 }
 
 /* Light */
-input[type="range"][data-theme="light"]{
+input[type="range"][data-theme="light"]{ 
     background-color:#bdc3c7;   
   border:1px solid #ecf0f1;
 }
