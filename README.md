@@ -43,7 +43,7 @@ If you want to use EasUI right now.
   
 Just add this line into the `<head>`of your doc :
 ```html
-<link rel="stylesheet" type="text/css" href="http://easui.lucasbonomi.com/versions/1/1.3/easui-1.3.early.min.css">
+<link rel="stylesheet" type="text/css" href="http://interwebstars.github.io/EASUI/versions/1/1.4/easui-1.4.early.css">
 ```
 
 #Icons (entypo)
@@ -52,5 +52,5 @@ For make the web better, and beautiful, we decided to use [WeLoveIconFonts](http
 We're working hard to make all the icons available, but for the demo and pre-releases, we will only use the Entypo icon font.
 To include icons into you page, just add this line before the framework inclusion : 
 ```html
-<link rel="stylesheet" type="text/css" href="http://easui.lucasbonomi.com/versions/1/1.3/icons-easui-1.3.early.min.css">
+<link rel="stylesheet" type="text/css" href="http://interwebstars.github.io/EASUI/versions/1/1.4/icons-easui-1.4.early.css">
 ``` 

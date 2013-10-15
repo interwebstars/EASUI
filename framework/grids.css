@@ -1,5 +1,5 @@
 /* 
-* EasUI | A simple & lovely responsive CSS framework.
+* EasUI | A simple & lovely responsive CSS framework.
 * ----------------------------------------------------------
 * https://github.com/interwebstars/EASUI
 * ----------------------------------------------------------
@@ -37,8 +37,17 @@
   padding: 5px;
 }
 
-/* Floats last ".bit-" to the right */
-[class*='bit-']:last-of-type {
+/* Floats last ".bit-" to the right 
+
+Old syntax : [class*='bit-']:last-of-type { 
+  padding-right: 5px;
+  float: right;
+}
+
+
+New syntax below */
+
+[class*='bit-']:not([class*="bit-1"]):last-of-type { 
   padding-right: 5px;
   float: right;
 }
