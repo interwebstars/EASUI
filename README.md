@@ -7,7 +7,7 @@ A simple &amp; lovely responsive CSS framework.
 # How to get involve : 
 *  You can [send me an email](mailto:lucas.bonomi@gmail.com) with suggestions, ideas, or just a sweet word.
 *  You can test the framework, and open new issues.
-*  You must the framework.
+*  You must test the framework.
 *  You have to test the framework.
 
 
